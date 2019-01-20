@@ -16,9 +16,10 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <TypeWriter 
-          first = 'niv'
-          last = 'suresh'
-          function = 'webDeveloper'
+              strings={[
+                '<span>$(<span class="fname">niv</span>).<span class="fname">suresh</span>(() => superman)<span>',
+                '<span>$(<span class="name">niv</span>).suresh(function() {webDeveloper})<span>',
+              ]}
         />
       </div>
     );
